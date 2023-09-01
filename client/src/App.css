@@ -1,0 +1,35 @@
+.App{
+  background: rgb(31, 88, 141);
+  color: azure;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.App .container{
+  height: 100%;
+  width: 70%;
+}
+
+.link{
+  color: aliceblue;
+}
+
+.logout{
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+}
+
+.table tbody{
+  overflow: auto;
+}
+
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.error{
+  color: rgb(255, 0, 0);
+}
